@@ -1,0 +1,14 @@
+{
+  "name": "captcha-rp-bot",
+  "version": "1.0.0",
+  "description": "Bot de verificação CAPTCHA para servidor RP do Discord.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.68",
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.2.2"
+  }
+}
